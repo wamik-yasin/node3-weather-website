@@ -14,7 +14,7 @@ const forecast = (longtitude, latitude, callback) => {
         }
         else
         {
-            callback(undefined, 'There is ' + body.main.temp + ' degress of temp and humidity level is ' + body.main.humidity + '. '+ body.weather[0].description)
+            callback(undefined, 'There is ' + body.main.temp + ' degress of temp and humidity level is ' + body.main.humidity + '. '+ body.weather[0].description + '. Now this is the updated string command code!')
         }
         
     })
